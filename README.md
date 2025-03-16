@@ -17,6 +17,7 @@ The program integrates with **Google Sheets**, where it stores primary city name
 - **Tequila API (Kiwi.com)** – Flight search  
 - **Sheety API** – Google Sheets integration  
 - **Twilio API** – SMS notifications  
+- **smtplib** – Sending email notifications via SMTP
 
 ## Installation & Setup  
 This project requires handling sensitive environment variables (`.env`) and API keys. Setting it up involves registering API access and configuring your environment accordingly.  
