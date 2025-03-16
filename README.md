@@ -2,10 +2,7 @@
 FlightDeals is a Python application that automates flight searches using the **Tequila API (Kiwi.com)**. When a suitable deal is found, it sends **email or SMS notifications**, allowing users to stay informed about the best flight prices.  
 
 ## Demo Video  
-Watch the project in action!: **[FlightDeals Demo on YouTube](YOUR_YOUTUBE_LINK_HERE)**  
-
-## Project Overview  
-This project started as a learning exercise and evolved into a functional flight search tool with multiple features.  
+Watch the project in action!: **[FlightDeals Demo on YouTube](https://youtu.be/xnj6AMYMrZo)**  
 
 ### Automated Flight Search  
 The application scans available flights based on predefined parameters. If a matching flight is found, it sends an **SMS notification** with flight details and a direct booking link.  
