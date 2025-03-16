@@ -1,32 +1,27 @@
-# FlightDeals
-Welcome to FlightDeals, a dynamic and innovative application that showcases the extensive skills and knowledge I've acquired during my journey in learning Python programming. This project stands as a testament to my expertise, demonstrating the real-world application of my coding proficiency.
+# FlightDeals  
+FlightDeals is a Python application that automates flight searches using the **Tequila API (Kiwi.com)**. When a suitable deal is found, it sends **email or SMS notifications**, allowing users to stay informed about the best flight prices.  
 
-# Project Overview:
-This project initially emerged as a training ground for honing my programming skills. Using Python, I've developed a sophisticated flight search engine leveraging the powerful Tequila API from Kiwi.com. The program's functionality is robust and multifaceted:
+## Demo Video  
+Watch the project in action!: **[FlightDeals Demo on YouTube](YOUR_YOUTUBE_LINK_HERE)**  
 
-<b>Automated Flight Search:</b>
+## Project Overview  
+This project started as a learning exercise and evolved into a functional flight search tool with multiple features.  
 
-The application diligently scours flights based on specified API parameters using the Tequila API. When it finds a flight that meets the criteria, it sends me an SMS to my registered phone number, complete with flight details and a convenient link for purchasing tickets.
+### Automated Flight Search  
+The application scans available flights based on predefined parameters. If a matching flight is found, it sends an **SMS notification** with flight details and a direct booking link.  
 
-<b>User Subscription Feature:</b>
+### User Subscription System  
+Users can **subscribe to receive email alerts** whenever a flight deal is found. The email includes **departure and arrival details, pricing, and a direct booking link**.  
 
-Later, I added a subscription feature allowing users to opt into this service. Upon program execution, if suitable flights are found, it sends an email to all registered users, furnishing them with comprehensive flight information, including departure and arrival cities, pricing, departure, and arrival dates, along with a hyperlink for seamless ticket purchase.
+### Smart Data Management  
+The program integrates with **Google Sheets**, where it stores primary city names and historical lowest ticket prices. It also **automatically retrieves missing IATA codes** and filters flights within a specified date range, from tomorrow up to six months ahead.  
 
-<b>Smart Data Management:</b>
+## Key Technologies Used  
+- **Tequila API (Kiwi.com)** – Flight search  
+- **Sheety API** – Google Sheets integration  
+- **Twilio API** – SMS notifications  
 
-The program employs a Google Sheet table where I've meticulously inputted primary city names and historically low flight ticket prices. Before conducting searches, the program validates the data, automatically populating any missing IATA codes for cities. It then filters flights based on the provided parameters and prices, looking for options from tomorrow up to six months into the future.
+## Installation & Setup  
+This project requires handling sensitive environment variables (`.env`) and API keys. Setting it up involves registering API access and configuring your environment accordingly.  
 
-<b>Key Technologies Used:</b>
-
-Tequila API by Kiwi.com
-
-Sheety API
-
-Twilio API
-
-# Installation
-Due to the complexity of this project, which involves handling sensitive data stored as environment variables, installation requires meticulous setup, including multiple registrations and configurations. This intricacy serves as a testament to my adeptness and commitment to implementing robust security measures.
-
-<b>Note:</b> For potential employers interested in understanding the implementation details and witnessing the functionality in action, a detailed walkthrough and demonstration can be provided upon request.
-
-Thank you for considering FlightDeals – a testament to my passion, skills, and dedication to the world of programming.
+For those interested in implementation details or a demonstration, a **walkthrough can be provided upon request**.  
